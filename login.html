@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            max-width: 360px;
+            min-height: 100vh;
+            background-color: #FFFF;
+        }
+
+        .login-img1 {
+            width: 100%;
+            height: auto;
+        }
+
+        .login-img2 {
+            width: 70%;
+            height: auto;
+        }
+
+        .container {
+            max-width: 280px;
+            width: 80%;
+            height: auto;
+            background-color: #abdef6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 30px;
+        }
+
+        .login-img-icon {
+            width: 24px;
+            height: auto;
+        }
+
+        .tombol-masuk {
+            width: 80%;
+            height: 40px;
+            border-radius: 50px;
+            background-image: url(img/login-img/login-img7.png);
+            background-size: cover;
+            margin-bottom: 30px;
+            border: none;
+        }
+
+        .login-img4 {
+            width: 100%;
+            height: auto;
+        }
+
+        /* INPUT */
+        .input-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            border-bottom: 2px solid;
+            width: 80%;
+            max-width: 250px;
+        }
+
+        .input-group input {
+            border: none;
+            outline: none;
+            background: transparent;
+            width: 100%;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <img class="login-img1" src="img/login-img/login-img1.png" alt="">
+        <img class="login-img2" src="img/login-img/login-img2.png" alt="">
+
+        <div class="container">
+            <h1>Login</h1>
+            <div class="input-group">
+                <img class="login-img-icon" src="img/login-img/login-img4.png" alt="">
+                <input type="text" placeholder="nama">
+            </div>
+
+            <div class="input-group">
+                <img class="login-img-icon" src="img/login-img/login-img5.png" alt="">
+                <input type="text" placeholder="kelas">
+            </div>
+
+            <div class="input-group">
+                <img class="login-img-icon" src="img/login-img/login-img6.png" alt="">
+                <input type="text" placeholder="sekolah">
+            </div>
+
+           <button class="tombol-masuk"></button>
+        </div>
+
+        <img class="login-img4" src="img/login-img/login-img8.png" alt="">
+    </div>
+</body>
+
+</html>
